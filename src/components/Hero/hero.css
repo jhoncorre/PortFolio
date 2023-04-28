@@ -1,0 +1,11 @@
+.atom {
+    animation: atom 130s linear infinite;
+    transition: transform 1s;
+}
+
+@keyframes atom {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
