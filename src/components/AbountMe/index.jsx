@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import BlobBlur from '../BlobBlur/BlobBlur'
 import Context from '../../Context/Themes'
-import image from '../../../public/job.jpg'
+import image from '../../../public/job.jpeg'
 
 export default function AbountMe () {
   const { Themes } = useContext(Context)
