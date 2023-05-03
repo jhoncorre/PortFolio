@@ -1,6 +1,7 @@
 import React, { useContext } from 'react'
 import BlobBlur from '../BlobBlur/BlobBlur'
 import Context from '../../Context/Themes'
+import image from '../../../public/profile-pic(9).png'
 
 export default function AbountMe () {
   const { Themes } = useContext(Context)
@@ -14,7 +15,7 @@ export default function AbountMe () {
         </div>
         <div className='flex-1 flex justify-center relative ml-5 md:mt-0 mt-10'>
           <div className='sm:w-[320px] sm:h-[320px] h-[250px] w-[250px] rounded-xl bg-white relative overflow-hidden z-[2]'>
-            <img src='public\Job.JPG' className='w-full h-full object-cover' alt='' />
+            <img src={image} className='w-full h-full object-cover' alt='' />
           </div>
           <BlobBlur positionStyles={{ top: '0', right: '0', height: '600px', width: '70%', opacity: '1' }} />
         </div>
