@@ -9,6 +9,7 @@ import { DiJavascript1, DiNodejsSmall } from 'react-icons/di'
 import BlobBlur from '../BlobBlur/BlobBlur'
 import MouseIcon from '../MouseIcon'
 import CV from '../../../public/CV.pdf'
+import image from '../../../public/profile.png'
 
 export default function Hero () {
   const { Themes } = useContext(Context)
@@ -60,7 +61,7 @@ export default function Hero () {
 
           </div>
           <div className='w-[320px] overflow-hidden h-[320px] rounded-full'>
-            <img src='public\profile-pic (9).png' alt='xs' />
+            <img src={image} alt='xs' />
           </div>
 
         </div>
